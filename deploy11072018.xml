@@ -2,14 +2,20 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>PPW_PraticaRG1ControlloEInoltroTabCtrl</members>
-		<members>PPW_PraticaRG1ControlEInolTabCtrl_Test</members>
 		<members>PPW_FP2_1Controller</members>
-		<members>PPW_CalloutService_Test</members>
 		<members>PPW_FPS_Manager</members>
-		<members>PPW_FPS_ManagerTest</members>
 		<members>PPW_FPS_Controller</members>
-		<members>PPW_FPS_ControllerTest</members>
 		<members>PPW_IP31Controller</members>
+        <members>PPW_MPSManager</members>
+        <members>PPW_PraticaRG6AllegatoATabCtrl</members>
+        <members>PPW_PraticaRG6ControlloEInoltroTabCtrl</members>
+        <members>PPW_PraticaRG6DetailsCtrl</members>
+        <members>PPW_PraticaRg6Manager</members>
+        <members>PPW_PraticaTriggerHandler</members>
+        <members>PPW_PraticaZP2ZP3OverturningManager</members>
+        <members>PPW_OmaxFileDownloader</members>
+		<!-- classi di test -->
+        <members>PPW_PraticaRG6ControEInoltroTabCtrl_Test</members>
 		<members>PPW_IP31Controller_Test</members>
 		<members>PPW_PraticaRG1ServiceInfoAssembler_TEST</members>
 		<members>PPW_PraticaZP2ZP3OverturningManager_Test</members>
@@ -25,15 +31,14 @@
         <members>PPW_PraticaRG2AllegatoBMTTabCtrl_Test</members>
         <members>PPW_PraticaRG2AllegatoBBTTabCtrl_Test</members>
         <members>PPW_PraticaRG1InfoRegProtTabCtrl_Test</members>
-        <members>PPW_MPSManager</members>
-        <members>PPW_PraticaRG6AllegatoATabCtrl</members>
-        <members>PPW_PraticaRG6ControEInoltroTabCtrl_Test</members>
-        <members>PPW_PraticaRG6ControlloEInoltroTabCtrl</members>
-        <members>PPW_PraticaRG6DetailsCtrl</members>
-        <members>PPW_PraticaRg6Manager</members>
-        <members>PPW_PraticaTriggerHandler</members>
-        <members>PPW_PraticaZP2ZP3OverturningManager</members>
-        <members>PPW_OmaxFileDownloader</members>
+		<members>PPW_FPS_ManagerTest</members>
+		<members>PPW_CalloutService_Test</members>
+		<members>PPW_FPS_ControllerTest</members>
+		<!-- classi di test che ho fatto girare e che vanno fatte girare, ma nessuna modifica sopra (in teoria) -->
+		<members>PPW_MPSManagerTest</members>
+		<members>PPW_OmaxFileDownloaderTest</members>
+		<members>PPW_PraticaRG6ControlloEInoltroTabCtrl_Test</members>
+		<members>PPW_PraticaZP2ZP3OverturningManager_Test</members>
         <name>ApexClass</name>
 	</types>
     <types>
@@ -70,6 +75,18 @@
         <members>PPW_PraticaZP1DetailsTabImpiantoSezione</members>
         <members>PPW_PraticaZP2ZP3DetailsTabControlloEInoltro</members>
         <members>PPW_PraticaZP2ZP3Details</members>
+		<members>PPW_FPSDetailsTabAllegatoD</members>
+		<members>PPW_FPSDetailsTabModuloSempliDiNotificaInfoGenerali</members>
+        <members>PPW_FPSDetails</members>
+		<members>PPW_FPSDetailsTabImpianto</members>
+		<members>PPW_FPSDetailsTabAllTecnici</members>
+		<members>PPW_FPSDetailsTabAllegato3</members>
+		<members>PPW_FPSDetailsTabAllegato4</members>
+		<members>PPW_FPSDetailsTabAllegatoA</members>
+		<members>PPW_FPSDetailsTabAllegatoC</members>
+		<members>PPW_FPSDetailsTabAllegatoE</members>
+		<members>PPW_FPSDetailsTabModuloSempliDiNotifica</members>
+		<members>PPW_FPSDetailsTabInfoRegProtezione</members>
         <name>AuraDefinitionBundle</name>
     </types>
     
